@@ -1,4 +1,4 @@
-package exercises.generics.dieta2024;
+package exercises.generics.dieta2023;
 
 import java.util.ArrayList;
 import java.util.HashMap;

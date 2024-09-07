@@ -1,7 +1,7 @@
 package patterns.state;
 
-public abstract class State {
+public interface State {
 
-    public abstract void next(Phone phone);
-    public abstract void handle();
+    public void next(Phone phone);
+    public void handle();
 }

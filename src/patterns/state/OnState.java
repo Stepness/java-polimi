@@ -1,6 +1,6 @@
 package patterns.state;
 
-public class OnState extends State{
+public class OnState implements State{
 
     public void next(Phone phone) {
         phone.state = new OffState();
