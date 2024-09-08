@@ -6,9 +6,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6);
 
-        int s = 1;
+        int s = 2;
         int result = minOf(numbers, s);
         System.out.println(result);
     }
